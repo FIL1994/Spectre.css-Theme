@@ -1,0 +1,14 @@
+{
+  "name": "spectre.css-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass spectre-theme.scss build/spectre-theme.css & sass spectre-theme.scss build/spectre-theme.min.css --style compressed"
+  },
+  "author": "Philip Van Raalte",
+  "license": "ISC",
+  "dependencies": {
+    "spectre.css": "^0.5.0"
+  }
+}

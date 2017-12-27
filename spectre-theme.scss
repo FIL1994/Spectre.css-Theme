@@ -1,0 +1,21 @@
+$primary-color: #2d948a; // #5755d9
+$dark-color: #435359; // #454d5d
+$light-color: #e0e0e0; // #fff
+
+$success-color: #32b643; // #32b643
+$warning-color: #ffb700; // #ffb700
+$error-color: #e82d00; // #e85600
+
+$base-font-family: "Patua One", "Segoe UI", Roboto, sans-serif;
+
+/*
+  Other Variables
+  /node_modules/spectre.css/src/_variables.scss
+
+ $secondary-color --> default secondary-color is calculated by primary-color
+ $base-font-family --> -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto !default;
+ */
+
+// @import "node_modules/spectre.css/src/spectre-exp";
+@import "node_modules/spectre.css/src/spectre-icons";
+@import "node_modules/spectre.css/src/spectre";
